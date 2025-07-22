@@ -1,0 +1,45 @@
+@import url('framework.css');
+
+body{
+  background: var(--warm-sand);
+  width: 100%;
+}
+header.container{
+  position: sticky;
+  top: 0;
+  right: 1rem;
+  background: var(--warm-sand);
+  filter: opacity(.7);
+}
+button#play{
+  margin-left: auto;
+  background: var(--soft-rosewood);
+  color: var(--charcoal-gray);
+  border-radius: 500px;
+}
+#hero{
+  padding: 1rem;
+  background: white;
+  align-items: stretch;
+  gap: 2rem;
+}
+#hisImg{
+  width: min(400px, 100%);
+  aspect-ratio: 1/1;
+  border: 6px solid var(--serenity-blue);
+}
+.highlight{
+  margin-bottom: 1rem;
+}
+.highlight::before{
+  content: '\26AB';
+  margin-right: .5rem;
+}
+main{
+  padding: 1rem;
+}
+#about, #timeline{
+  border: 3px solid var(--white-smoke);
+  align-self: stretch;
+  flex: 1 1 min(400px, 100%);
+}

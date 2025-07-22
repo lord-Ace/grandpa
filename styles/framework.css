@@ -1,0 +1,38 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: currentcolor;
+  list-style-type: none;
+  text-decoration: none;
+  /* position: relative; */
+  scroll-behavior: smooth;
+}
+
+button, input, input:focus{
+  border: none;
+  outline: none;
+  padding: .5rem;
+}
+
+:root {
+  /* Core Colors */
+  --serenity-blue: hsl(204, 26%, 72%);      /* Calm hero sections */
+  --warm-sand: hsl(30, 45%, 90%);           /* Backgrounds, cards */
+  --soft-rosewood: hsl(8, 30%, 55%);        /* Call-to-action, accents */
+  --dusty-lavender: hsl(270, 20%, 75%);     /* Subtle highlights or soft section dividers */
+  --charcoal-gray: hsl(0, 0%, 30%);         /* Headings, text base */
+  --white-smoke: hsl(0, 0%, 97%);           /* Light backgrounds */
+
+  /* Accent Variants */
+  --rosewood-hover: hsl(8, 30%, 60%);
+  --serenity-gradient-start: hsl(204, 26%, 72%);
+  --serenity-gradient-end: hsl(270, 20%, 75%);
+}
+
+.container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
