@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
 *{
   margin: 0;
   padding: 0;
@@ -5,7 +7,6 @@
   color: currentcolor;
   list-style-type: none;
   text-decoration: none;
-  /* position: relative; */
   scroll-behavior: smooth;
 }
 
@@ -20,14 +21,9 @@ button, input, input:focus{
   --serenity-blue: hsl(204, 26%, 72%);      /* Calm hero sections */
   --warm-sand: hsl(30, 45%, 90%);           /* Backgrounds, cards */
   --soft-rosewood: hsl(8, 30%, 55%);        /* Call-to-action, accents */
-  --dusty-lavender: hsl(270, 20%, 75%);     /* Subtle highlights or soft section dividers */
+  --dusty-lavender: hsl(270, 20%, 60%);     /* Subtle highlights or soft section dividers */
   --charcoal-gray: hsl(0, 0%, 30%);         /* Headings, text base */
   --white-smoke: hsl(0, 0%, 97%);           /* Light backgrounds */
-
-  /* Accent Variants */
-  --rosewood-hover: hsl(8, 30%, 60%);
-  --serenity-gradient-start: hsl(204, 26%, 72%);
-  --serenity-gradient-end: hsl(270, 20%, 75%);
 }
 
 .container{
@@ -35,4 +31,15 @@ button, input, input:focus{
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
+}
+a{
+  text-decoration: underline;
+  color: var(--dusty-lavender);
+  font-weight: 600;
+}
+h1, h2{
+  font-family: 'Playfair Display', cursive;
+}
+p, span, ul, li{
+  font-family: 'Lato', cursive;
 }
