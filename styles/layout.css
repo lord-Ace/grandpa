@@ -22,7 +22,7 @@ button#play{
 }
 #hero{
   padding: 1rem;
-  background: url('../public/Bg.jpg');
+  background: url('../media/Bg.jpg');
   align-items: stretch;
   gap: 2rem;
 }
