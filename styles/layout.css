@@ -22,7 +22,8 @@ button#play{
 }
 #hero{
   padding: 1rem;
-  background: url('../media/Bg.jpg');
+  background: url('../media/Bg.jpg') no-repeat center;
+  background-size: 100% 100%;
   align-items: stretch;
   gap: 2rem;
 }
