@@ -36,6 +36,8 @@ a{
   text-decoration: underline;
   color: var(--dusty-lavender);
   font-weight: 600;
+  width: 100%;
+  text-align: center;
 }
 h1, h2{
   font-family: 'Playfair Display', cursive;
