@@ -1,8 +1,8 @@
 @import url('framework.css');
 
 body{
-  background: var(--warm-sand);
-  width: 100%;
+  background: var(--cloud-white);
+  color: var(--charcoal-soft);
 }
 h2{
 width: 100%;
@@ -11,13 +11,13 @@ header.container{
   position: sticky;
   top: 0;
   right: 1rem;
-  background: var(--warm-sand);
+  background: var(--sky-blue);
   filter: opacity(.7);
 }
 button#play{
   margin-left: auto;
-  background: var(--soft-rosewood);
-  color: var(--charcoal-gray);
+  background: var(--rose-petal);
+  color: var(--charcoal-soft);
   border-radius: 500px;
 }
 #hero{
@@ -26,11 +26,12 @@ button#play{
   background-size: 100% 100%;
   align-items: stretch;
   gap: 2rem;
+  margin-bottom: 1rem;
 }
 #hisImg{
   width: min(400px, 100%);
   aspect-ratio: 1/1;
-  border: 6px solid var(--serenity-blue);
+  border: 6px solid var(--mint-leaf);
 }
 .highlight{
   margin-bottom: 1rem;
@@ -39,9 +40,7 @@ button#play{
   content: '\26AB';
   margin-right: .5rem;
 }
-main{
-  padding: 1rem;
-}
+
 main>section{
   margin-bottom: 1rem;
 }
@@ -50,10 +49,12 @@ main>section{
   transition: all 0.3s ease;
 }
 #about, #timeline{
-  border: 3px solid var(--white-smoke);
+  background: var(--sun-peach);
   align-self: stretch;
   flex: 1 1 min(400px, 100%);
   padding: .5rem;
+  border-radius: 1rem;
+  box-shadow: 0px 3px 7px var(--charcoal-soft);
 }
 .gallery{
   aspect-ratio: 1/1;
@@ -82,10 +83,14 @@ div.container{
   justify-content: flex-start;
   margin-bottom: .5rem;
 }
+#burialarr{
+  background: var(--mint-leaf);
+}
 footer{
-  background: var(--soft-rosewood);
+  background: linear-gradient(135deg, var(--sky-blue), var(--lavender-blush));
   padding: 1rem;
   text-align: center;
+  margin-top: -1rem;
 }
 #song{
   display: none;

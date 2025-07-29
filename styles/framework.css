@@ -17,13 +17,18 @@ button, input, input:focus{
 }
 
 :root {
-  /* Core Colors */
-  --serenity-blue: hsl(204, 26%, 72%);      /* Calm hero sections */
-  --warm-sand: hsl(30, 45%, 90%);           /* Backgrounds, cards */
-  --soft-rosewood: hsl(8, 30%, 55%);        /* Call-to-action, accents */
-  --dusty-lavender: hsl(270, 20%, 60%);     /* Subtle highlights or soft section dividers */
-  --charcoal-gray: hsl(0, 0%, 30%);         /* Headings, text base */
-  --white-smoke: hsl(0, 0%, 97%);           /* Light backgrounds */
+  --sky-blue: hsl(200, 70%, 80%);           /* Uplifting, hopeful (hero backgrounds) */
+  --sun-peach: hsl(30, 90%, 85%);           /* Gentle warmth (cards, testimonials) */
+  --lavender-blush: hsl(280, 60%, 88%);     /* Soft remembrance (borders, backgrounds) */
+  --rose-petal: hsl(345, 70%, 75%);         /* Emotional vibrance (buttons, accents) */
+  --mint-leaf: hsl(150, 60%, 80%);          /* Renewal, harmony (section dividers) */
+  --charcoal-soft: hsl(0, 0%, 25%);         /* Readable contrast for text */
+  --cloud-white: hsl(0, 0%, 98%);           /* Clean canvas (body background) */
+
+  /* Accent variants */
+  --rose-hover: hsl(345, 70%, 68%);
+  --sky-gradient-start: hsl(200, 70%, 80%);
+  --sky-gradient-end: hsl(280, 60%, 88%);
 }
 
 .container{
@@ -34,7 +39,7 @@ button, input, input:focus{
 }
 a{
   text-decoration: underline;
-  color: var(--dusty-lavender);
+  color: var(--rose-petal);
   font-weight: 600;
   width: 100%;
   text-align: center;
