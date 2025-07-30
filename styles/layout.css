@@ -1,7 +1,7 @@
 @import url('framework.css');
 
 body{
-  background: var(--cloud-white);
+  background: var(--background);
   color: var(--charcoal-soft);
 }
 h2{
@@ -49,7 +49,7 @@ main>section{
   transition: all 0.3s ease;
 }
 #about, #timeline{
-  background: var(--sun-peach);
+  background: var(--sky-blue);
   align-self: stretch;
   flex: 1 1 min(400px, 100%);
   padding: .5rem;
@@ -84,10 +84,13 @@ div.container{
   margin-bottom: .5rem;
 }
 #burialarr{
-  background: var(--mint-leaf);
+  background: var(--sun-peach);
+  box-shadow: 3px 0px 7px var(--charcoal-soft);
 }
 footer{
-  background: linear-gradient(135deg, var(--sky-blue), var(--lavender-blush));
+  /* background: var(--cards); */
+  background: linear-gradient(130deg, var(--sky-blue), var(--lavender-blush));
+  /* color: var(--background); */
   padding: 1rem;
   text-align: center;
   margin-top: -1rem;

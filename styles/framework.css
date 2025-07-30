@@ -16,19 +16,14 @@ button, input, input:focus{
   padding: .5rem;
 }
 
-:root {
+:root{
+  --background: hsl(40, 10%, 89%); /* Light background for the body */
   --sky-blue: hsl(200, 70%, 80%);           /* Uplifting, hopeful (hero backgrounds) */
   --sun-peach: hsl(30, 90%, 85%);           /* Gentle warmth (cards, testimonials) */
   --lavender-blush: hsl(280, 60%, 88%);     /* Soft remembrance (borders, backgrounds) */
   --rose-petal: hsl(345, 70%, 75%);         /* Emotional vibrance (buttons, accents) */
   --mint-leaf: hsl(150, 60%, 80%);          /* Renewal, harmony (section dividers) */
   --charcoal-soft: hsl(0, 0%, 25%);         /* Readable contrast for text */
-  --cloud-white: hsl(0, 0%, 98%);           /* Clean canvas (body background) */
-
-  /* Accent variants */
-  --rose-hover: hsl(345, 70%, 68%);
-  --sky-gradient-start: hsl(200, 70%, 80%);
-  --sky-gradient-end: hsl(280, 60%, 88%);
 }
 
 .container{
@@ -49,4 +44,11 @@ h1, h2{
 }
 p, span, ul, li{
   font-family: 'Lato', cursive;
+}
+
+life{
+color: hsl(39, 74%, 71%)
+hsl(175, 37%, 17%)
+hsl(20, 23%, 97%)
+hsl(40, 10%, 89%);
 }
