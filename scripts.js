@@ -1,3 +1,4 @@
+document.addEventListener("DOMContentLoaded", function () {
 const play = document.getElementById('play')
 const song = document.getElementById('song')
 const body = document.getElementById('body')
@@ -10,3 +11,8 @@ play.addEventListener('click', function(){
     song.pause()
   }
 })
+const imgCount = 0
+
+})
+// https://res.cloudinary.com/dvjmqedze/image/upload/twelve.png
+
