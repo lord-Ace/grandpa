@@ -5,7 +5,7 @@ const body = document.getElementById('gallery')
 
 let imgCount = 0
 // Create 100 images with the specified source and class
-while (imgCount < 52) {
+while (imgCount <= 52) {
   imgCount++
   const img = document.createElement('img')
   img.src = `https://res.cloudinary.com/dvjmqedze/image/upload/${imgCount}.png`
