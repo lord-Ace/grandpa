@@ -1,15 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <meta charset="UTF8" />
-          <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-  <meta property="og:description" content="ETERNAL REST GRANT UNTO HIM O LORD AND LET YOUR PERPETUAL LIGHT SHINE UPON HIM.  MAY HIS SOUL REST IN PEACE"/>
-           <meta property="og:image" content="https://joe-joe.vercel.app/media/grandpa.jpg" />
-  <meta property="og:type" content="website" />
-        <link rel="icon" type="image/png" sizes="32x32" href="" />
-        
-        <link href="styles/layout.css" rel="stylesheet" />
+        <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Preconnect for fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <!-- Combine font requests -->
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Playfair+Display:wght@600&display=swap" rel="stylesheet">
+  <!-- Use a single, minified CSS file -->
+  <link href="styles/main.min.css" rel="stylesheet" />
         <title>MR JOSEPH AZU</title>
     </head>
     <body id="body">
@@ -21,6 +21,9 @@
                 src="./media/grandpa.webp"
                 alt="A portrait of Joseph Azu wearing traditional attire and a red cap, smiling"
                 id="hisImg"
+                loading="lazy"
+                width="400"
+                height="400"
             />
             <div>
                 <h1>
@@ -131,6 +134,6 @@
 </p>
 </footer>
 <audio controls loop src="media/bg.m4a" id="song"></audio>
-   <script src="scripts.js"></script>
+   <script src="scripts.js" defer></script>
     </body>
 </html>
