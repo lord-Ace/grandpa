@@ -22,10 +22,10 @@ if (play) {
 
 let imgCount = 0
 // Create 100 images with the specified source and class
-while (imgCount <= 52) {
+while (imgCount <= 51) {
   imgCount++
   const img = document.createElement('img')
-  img.src = `https://res.cloudinary.com/dvjmqedze/image/upload/${imgCount}.png`
+  img.src = `https://res.cloudinary.com/dvjmqedze/image/upload/${imgCount}.webp`
   img.classList.add('gallery')
   body.appendChild(img)
 }
