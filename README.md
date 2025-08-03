@@ -1,34 +1,34 @@
-# In Loving Memory of Joseph Azu
+# Grandpa Memorial Website
 
-A simple, responsive memorial website to honor the life and legacy of Mr. Joseph Ikemefune Azu (Joe Joe).
+A simple, elegant, and responsive memorial website to honor the life and legacy of Mr. Joseph Ikemefune Azu (Joe Joe).
 
 ## Features
 
-- **Hero Section:** A dignified introduction with a portrait and key highlights.
-- **About Section:** Brief biography with a link to a detailed life story.
-- **Timeline:** Chronological milestones of Joseph Azu’s life and career.
-- **Gallery:** Photo gallery with a link to view more images and tributes.
+- **Hero Section:** Dignified introduction with a portrait and key highlights.
+- **About Section:** Brief biography and timeline of Joseph Azu’s life and career.
+- **Gallery:** Photo gallery and tribute page for sharing memories.
 - **Burial Arrangements:** Clear schedule for all memorial events.
 - **Audio Tribute:** Play a background song in remembrance.
 - **Responsive Design:** Works well on desktop and mobile devices.
+- **Optimized Performance:** Combined and minified CSS, deferred JS, lazy-loaded images, and optimized font loading for fast page loads.
 
 ## Project Structure
 
 ```
 grandpa/
-│
 ├── index.html                # Main memorial page
-├── scripts.js                # Audio play/pause functionality
+├── scripts.js                # Audio and gallery functionality
 ├── media/                    # Images and audio files
-│   ├── Bg.jpg
+│   ├── Bg.webp
 │   ├── bg.m4a
-│   └── grandpa.jpg
+│   ├── grandpa.webp
+│   └── ...
 ├── pages/
 │   ├── biography.html        # Full biography
 │   └── gall&tri.html         # Gallery and tribute page
-└── styles/
-    ├── framework.css         # CSS variables and base styles
-    └── layout.css            # Layout and component styles
+├── styles/
+│   └── main.min.css          # Combined and minified CSS
+└── README.md                 # Project documentation
 ```
 
 ## How to Use
@@ -38,13 +38,20 @@ grandpa/
 3. To customize:
    - Replace images in the `media/` folder.
    - Edit text in `index.html` and `pages/biography.html`.
-   - Adjust colors and styles in `styles/framework.css` and `styles/layout.css`.
+   - Adjust colors and styles in `styles/main.min.css` (edit source CSS before minifying for easier changes).
+
+## Performance Best Practices
+
+- All CSS is combined and minified in `main.min.css` to reduce render-blocking requests.
+- Fonts are loaded with `preconnect` and `display=swap` for faster rendering.
+- JavaScript is loaded with `defer` to avoid blocking HTML parsing.
+- Images use modern formats and lazy loading for optimal performance.
 
 ## Customization
 
 - **Images:** Place your own images in the `media/` folder and update the `src` attributes in HTML.
 - **Audio:** Replace `media/bg.m4a` with your preferred tribute song.
-- **Colors:** Change CSS variables in `styles/framework.css` for a different theme.
+- **Colors:** Change CSS variables in the source CSS for a different theme.
 - **Content:** Update biography, timeline, and gallery as needed.
 
 ## Credits

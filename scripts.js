@@ -8,7 +8,6 @@ const body = document.getElementById('gallery')
 if (play) {
   play.addEventListener('mouseover', function() {
     play.style.cursor = 'pointer'
-    console.log('Mouse over play button')
     play.addEventListener('click', function(){
       if (song.paused){
         song.play()
@@ -22,10 +21,11 @@ if (play) {
 
 let imgCount = 0
 // Create 100 images with the specified source and class
-while (imgCount <= 51) {
+while (imgCount < 51) {
   imgCount++
   const img = document.createElement('img')
   img.src = `https://res.cloudinary.com/dvjmqedze/image/upload/${imgCount}.webp`
+  console.log(imgCount)
   img.classList.add('gallery')
   body.appendChild(img)
 }
